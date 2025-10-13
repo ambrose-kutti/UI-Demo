@@ -1,0 +1,33 @@
+Merged HTML, CSS, JS (Bootstrap), FAST API
+
+
+====For Running the File====
+
+1. Create an virtual Environment:
+    python -m venv .venv
+
+2.activate the virtual Environment 
+    .venv/Scripts/activate
+
+3.Install Dependencies:
+    pip install fastapi uvicorn[standard] aiofiles python-multipart
+
+4. Check ffmpeg version for paths:
+    ffmpeg -version
+
+5.to run the app.py
+    uvicorn app:app 
+
+6. To Quit:
+    ctrl+C/c
+
+⚠️Note⚠️:
+    While running it first shows error 404 and when u get the id from UI and run the second command and paste the ID  it is running
+
+IN WINDOW POWERSHELL 
+RUN:
+     Get-Process ffmpeg -ErrorAction SilentlyContinue
+
+Then RUN:
+     Get-ChildItem -Path "C:\rtsp_hls_demo\ ecddf5e434ec489eac7e86a1821a5778" -Forc 
+     (Change the id as show in the UI)
