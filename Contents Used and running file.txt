@@ -1,6 +1,4 @@
 Merged HTML, CSS, JS (Bootstrap), FAST API
-
-
 ====For Running the File====
 
 1. Create an virtual Environment:
@@ -16,12 +14,12 @@ Merged HTML, CSS, JS (Bootstrap), FAST API
     ffmpeg -version
 
 5.to run the app.py
-    uvicorn app:app 
+    uvicorn app:app --reload
 
 6. To Quit:
     ctrl+C/c
 
-⚠️Note⚠️:
+⚠️NOTE⚠️:
     While running it first shows error 404 and when u get the id from UI and run the second command and paste the ID  it is running
 
 IN WINDOW POWERSHELL 
