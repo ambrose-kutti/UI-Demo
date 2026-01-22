@@ -43,7 +43,8 @@ def start_ffmpeg_hls(rtsp_url: str, out_dir: Path) -> subprocess.Popen:
 
 @app.get("/", response_class=HTMLResponse)
 def ui():
-        return HTML
+        with open("templates/front.html", "r", encoding="utf-8") as f:
+        return f.read()
 
 @app.post("/start")
 def start(rtsp: str = Body(..., embed=True)):
