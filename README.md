@@ -31,8 +31,8 @@ UI-Demo provides a user-friendly interface for managing and viewing RTSP streams
 ## 🔄️Running
 
 1. Download the files from the git hub(clone)
-2. create a **template folder** and paste your `front.html`
-3. create a **static folder** and paste your `script.js`
+2. create a `template folder` and paste your `front.html`
+3. create a `static folder` and paste your `script.js`
 4. now run the app.py
 5. and test it via files videos 
 
