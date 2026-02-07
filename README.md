@@ -20,11 +20,11 @@ UI-Demo provides a user-friendly interface for managing and viewing RTSP streams
 
 ```
 ├── Contents Used and running file.txt
-└── app.py
-└──Templates /
-          └── front.html
-└──static /
-          └── script.js
+|── app.py
+|──Templates /
+|   └── front.html
+|──static /
+|   └── script.js
 ```
 ---
 
